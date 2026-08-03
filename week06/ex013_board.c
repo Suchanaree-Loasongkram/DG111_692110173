@@ -19,11 +19,7 @@ int main()
             count++;
         }
         printf("\n");
-        for (int j = 0; j < cols; j++)
-        {
-            printf("+---");
-        }
-        printf("+\n");
     }
+    printf("+---+---+---+---+---+\n");
     return 0;
 }
